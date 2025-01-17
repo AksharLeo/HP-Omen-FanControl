@@ -19,7 +19,7 @@ This script controls the fan speed based on the system's temperature. It can be 
 To install the script, simply run the following command:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/AksharLeo/HP-Omen-FanControl/refs/heads/main/fan_control_manager.sh -o /tmp/fan_control_manager.sh && sudo bash /tmp/fan_control_manager.sh install && rm -f /tmp/fan_control_manager.sh
+curl -sSL https://raw.githubusercontent.com/AksharLeo/HP-Omen-FanControl/main/fan_control_manager.sh -o /tmp/fan_control_manager.sh && sudo bash /tmp/fan_control_manager.sh install && rm -f /tmp/fan_control_manager.sh
 
 ```
 
@@ -35,7 +35,7 @@ If you don't provide a temperature threshold, it will default to **85°C**.
 To uninstall the fan control script, you can run the following command:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/AksharLeo/HP-Omen-FanControl/refs/heads/main/fan_control_manager.sh -o /tmp/fan_control_manager.sh && sudo bash /tmp/fan_control_manager.sh uninstall && rm -f /tmp/fan_control_manager.sh
+curl -sSL https://raw.githubusercontent.com/AksharLeo/HP-Omen-FanControl/main/fan_control_manager.sh -o /tmp/fan_control_manager.sh && sudo bash /tmp/fan_control_manager.sh uninstall && rm -f /tmp/fan_control_manager.sh
 
 ```
 
