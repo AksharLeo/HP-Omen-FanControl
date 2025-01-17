@@ -20,7 +20,7 @@ if [ "$1" == "install" ]; then
 
     # Prompt the user for the temperature threshold (in °C)
     echo "Welcome to the Fan Control setup!"
-    echo "Please enter the temperature threshold (in °C) for maximum fan speed (e.g., 70):"
+    echo "Please enter the temperature threshold (in °C) for maximum fan speed (e.g., 85):"
 
     # Read user input for temperature threshold
     read -p "Temperature Threshold (°C): " TEMP_THRESHOLD
