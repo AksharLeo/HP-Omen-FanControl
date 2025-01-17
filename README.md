@@ -1,6 +1,6 @@
 # HP Omen Fan Control Script
 
-**Warning**: This script is designed specifically for **HP Omen laptops** and has only been tested on the **HP Omen C0140AX**. It may not work correctly on other models.
+**NOTE**: This script is designed specifically for **HP Omen laptops** and has only been tested on the **HP Omen C0140AX**. It may not work correctly on other models.
 
 This script controls the fan speed based on the system's temperature. It can be installed and configured with a customizable temperature threshold for maximum fan speed. The script runs every 5 minutes to ensure the system remains cool by adjusting the fan speed as needed.
 
